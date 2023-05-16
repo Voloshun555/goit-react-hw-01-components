@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+
+    background-color: rgb(224, 223, 223);
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .section{
+    padding: 25px;
+    border: solid #0c4ecf;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
