@@ -1,6 +1,7 @@
 import { Profile } from "components/Profile/Profile";
 import {Statistics} from 'components/Statistics/Statistics'
 import user from 'data/user.json';
+import data from 'data/data.json'
 import css from 'components/AppCss.module.css'
 
 
@@ -18,7 +19,7 @@ export const App = () => {
 />
 </section>
 <section className={css.section}>
-<Statistics/>
+<Statistics  title="Upload stats" stats={data}/>
 </section>
     </div>
     
