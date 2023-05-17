@@ -1,0 +1,14 @@
+tr{
+    height: 45px;
+    text-align: center;
+}
+tr:nth-child(2n) {
+    background-color: #f1f1f1;
+}
+.tablet{
+    width: 450px;
+    background-color: aqua;
+}
+.trName{
+    background-color: #a1ff7f;
+}

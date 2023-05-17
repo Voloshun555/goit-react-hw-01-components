@@ -1,0 +1,20 @@
+.statsList{
+    display: flex;
+    /* background-color: #21e73e; */
+}
+
+.statistics{
+    background-color: #c1d35b6e;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.statsItem{
+    width: 100%;
+    align-items: center;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
